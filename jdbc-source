@@ -1,3 +1,5 @@
+# The definition of a Kafka JDBC Source
+
 connector.class=io.confluent.connect.jdbc.JdbcSourceConnector
 incrementing.column.name=id
 transforms.createKey.type=org.apache.kafka.connect.transforms.ValueToKey
